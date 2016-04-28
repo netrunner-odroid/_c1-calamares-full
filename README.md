@@ -1,2 +1,2 @@
-# calamares-settings-full
+# calamares-full
 Netrunner Debian Full specific settings for calamares

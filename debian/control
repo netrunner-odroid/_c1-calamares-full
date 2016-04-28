@@ -1,0 +1,19 @@
+Source: calamares-settings-full
+Section: devel
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Homepage: https://github.com/calamares/calamares
+Vcs-Git: http://github.com/calamares/calamares-debian.git
+Vcs-Browser: https://github.com/calamares/calamares-debian.git
+
+Package: calamares-settings-full
+Architecture: all
+Depends: calamares
+Breaks: calamares-branding, calamares-core-settings
+Replaces: calamares-branding, calamares-core-settings
+Description: distribution-independent installer framework
+ distribution-independent installer framework.
+ .
+ This package contains the calamares settings and branding for Netrunner Debian Full.

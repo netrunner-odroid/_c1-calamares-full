@@ -1,0 +1,32 @@
+---
+modules-search: [ local ]
+
+instances:
+  -
+   config: resize.conf
+   id:     resize
+   module: interactiveterminal
+
+sequence:
+  - show:
+      - welcome
+      - locale
+      - keyboard
+      - users
+      - interactiveterminal@resize
+  - exec:
+      - machineid
+      - hwclock
+      - locale
+      - localecfg
+      - keyboard
+      - users
+      - networkcfg
+      - services
+      - displaymanager
+  - show:
+      - finished
+
+branding: netrunner-full
+dont-chroot: true
+prompt-install: false

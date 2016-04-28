@@ -1,0 +1,23 @@
+---
+componentName:  netrunner-core
+
+strings:
+    productName:         Netrunner Debian Full Edition
+    shortProductName:    Netrunner Debian Full
+    version:             1.0.0-dev
+    shortVersion:        1.0
+    versionedName:       Netrunner Debian Full Edition 
+    shortVersionedName:  Netrunner Debian Full 1.0
+    bootloaderEntryName: Netrunner Debian Full
+
+images:
+    productLogo:         "netrunner-debian-logo.png"
+    productIcon:         "netrunner-debian-icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#8497A7"
