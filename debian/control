@@ -1,4 +1,4 @@
-Source: calamares-settings-full
+Source: calamares-full
 Section: devel
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
@@ -8,7 +8,7 @@ Homepage: https://github.com/calamares/calamares
 Vcs-Git: http://github.com/calamares/calamares-debian.git
 Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
-Package: calamares-settings-full
+Package: calamares-full
 Architecture: all
 Depends: calamares
 Breaks: calamares-branding, calamares-core-settings
