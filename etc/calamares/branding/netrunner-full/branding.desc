@@ -1,5 +1,5 @@
 ---
-componentName:  netrunner-core
+componentName:  netrunner-full
 
 strings:
     productName:         Netrunner Debian Full Edition
