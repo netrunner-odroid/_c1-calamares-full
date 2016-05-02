@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
 Package: calamares-full
 Architecture: all
-Depends: calamares
+Depends: calamares, dpkg-dev
 Breaks: calamares-branding, calamares-core-settings
 Replaces: calamares-branding, calamares-core-settings
 Description: distribution-independent installer framework
