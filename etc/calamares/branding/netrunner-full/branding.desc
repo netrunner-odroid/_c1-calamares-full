@@ -2,11 +2,11 @@
 componentName:  netrunner-full
 
 strings:
-    productName:         Netrunner Debian Complete Edition
+    productName:         Netrunner Debian Complete
     shortProductName:    Netrunner Debian Complete
     version:             1.0.0-dev
     shortVersion:        1.0
-    versionedName:       Netrunner Debian Complete Edition 
+    versionedName:       Netrunner Debian Complete 
     shortVersionedName:  Netrunner Debian Complete 1.0
     bootloaderEntryName: Netrunner Debian Complete
 
