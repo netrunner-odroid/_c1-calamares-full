@@ -70,15 +70,6 @@ EOF
 
 		chmod a+x "/home/${LIVE_USERNAME}/Desktop/calamares.desktop"
 		chown -R ${LIVE_USERNAME}:${LIVE_USERNAME}  "/home/${LIVE_USERNAME}/Desktop"
-
-		# Configure settings depending on architecture
-		ARCH=$(dpkg-architecture -qDEB_HOST_ARCH)
-		if [ "${ARCH}" = "armhf" ]
-		then
-			ln -s /etc/calamares/settings.conf.armhf /etc/calamares/settings.conf
-		else
-			ln -s /etc/calamares/settings.conf.amd64 /etc/calamares/settings.conf
-		fi
 	fi
 	# Creating state file
 	touch /var/lib/live/config/calamares
