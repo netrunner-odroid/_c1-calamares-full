@@ -1,0 +1,11 @@
+[Unit]
+Description=Calamares deferred removal
+ConditionPathExists=/var/lib/calamares/first_run_done
+
+[Service]
+Type=oneshot
+ExecStart=pkcon remove calamares c1-calamares-full
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,4 @@
+---
+type: "job"
+name: "deferred_remove"
+command: "mkdir -p /var/lib/calamares && touch /var/lib/calamares/first_run_done"
