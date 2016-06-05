@@ -4,8 +4,10 @@ ConditionPathExists=/var/lib/calamares/first_run_done
 
 [Service]
 Type=oneshot
+ExecStart=/sbin/resize2fs /dev/mmcblk0p1
 ExecStart=/usr/bin/pkcon remove calamares c1-calamares-full
 
 [Install]
 WantedBy=multi-user.target
+Before=display-manager.service
 
