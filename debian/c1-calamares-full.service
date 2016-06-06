@@ -1,6 +1,7 @@
 [Unit]
 Description=Calamares deferred removal
 ConditionPathExists=/var/lib/calamares/first_run_done
+Before=display-manager.service
 
 [Service]
 Type=oneshot
@@ -9,5 +10,4 @@ ExecStart=/usr/bin/pkcon remove calamares c1-calamares-full
 
 [Install]
 WantedBy=multi-user.target
-Before=display-manager.service
 
